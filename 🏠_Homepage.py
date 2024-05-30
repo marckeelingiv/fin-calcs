@@ -17,3 +17,5 @@ st.sidebar.success("Welcome to the Financial Calculators!")
 custom_html = f'<script async src="{google_adds_link}" crossorigin="anonymous"></script>'
 
 st.markdown(custom_html, unsafe_allow_html=True)
+
+st.write(custom_html)
