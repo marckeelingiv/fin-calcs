@@ -1,6 +1,7 @@
 import streamlit as st
 import datetime
 from collections import namedtuple
+from app_resources.app_functions import add_script_to_header
 
 st.set_page_config(
     page_title="Financial Calculators",
@@ -76,4 +77,4 @@ if st.sidebar.button("Calculate"):
     # """  
     # st.markdown(ad_html, unsafe_allow_html=True) 
 
-    
+add_script_to_header()

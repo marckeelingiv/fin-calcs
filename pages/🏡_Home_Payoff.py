@@ -1,4 +1,5 @@
 import streamlit as st
+from app_resources.app_functions import add_script_to_header
 
 st.set_page_config(
     page_title="Financial Calculators",
@@ -120,3 +121,4 @@ if st.sidebar.button("Calculate"):
         )
     )
 
+add_script_to_header()
